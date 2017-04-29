@@ -1,0 +1,39 @@
+{
+  "tracks" : [
+    {
+      "artist" : "Key!",
+      "song" : "Regular Guy",
+      "album" : "Until I Scream",
+      "art" : "regualr.jpg",
+      "mp3" : "Key-Scream.mp3"
+    },
+    {
+      "artist" : "Lil Yachty x Quavo",
+      "song" : "No Hook",
+      "album" : "Single",
+      "art" : "lilboat.jpg",
+      "mp3" : "nohook.mp3"
+    },
+    {
+      "artist" : "Nav",
+      "song" : "Myself",
+      "album" : "Nav",
+      "art" : "Nav.jpg",
+      "mp3" : "Nav.mp3"
+    },
+    {
+      "artist" : "Famous Dex",
+      "song" : "Big Blue",
+      "album" : "Dex meet Dexter",
+      "art" : "D.jpg",
+      "mp3" : "DEX.mp3"
+    },
+    {
+      "artist" : "Post Malone",
+      "song" : "Candy Paint",
+      "album" : "Fate of the Furius: Soundtrack",
+      "art" : "ST.jpg",
+      "mp3" : "Candy.mp3"
+    }
+  ]
+}

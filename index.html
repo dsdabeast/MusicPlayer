@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Music Player</title>
+  <link rel="stylesheet" href="main.css"> </head>
+
+<body>
+  <div id="main">
+    <div id="music-main" class="flex">
+      <div class="x1">
+        <ul id="playlist"></ul>
+      </div>
+      <div id="song-main" class="x3">
+        <div>
+          <img id="art" src="assets/covers/omm2.jpg">
+        </div>
+        <div id="song"><marquee>Omm Music</marquee></div>
+        <div id="artist">Artist</div>
+        <div id="album">Album</div>
+      </div>
+      <div class="x1"> </div>
+    </div>
+    <div id="controls-main">
+      <div class="flex">
+        <div class="x1" id="elapsed">Elapsed</div>
+        <div class="x3"><progress id="progress" value="0" max="100"></progress></div>
+        <div class="x1" id="remaining">Remaining</div>
+      </div>
+      <div class="flex">
+        <div class="x1"><img id="previous" src="assets/tracks/albumart-arrow-left.png"></div>
+        <div class="x1"><img id="stop" ></div>
+        <div class="x1"><img id="pause" src="assets/covers/btn_pause.png"></div>
+        <div class="x1"><img id="play" src="btn_play.png"></div>
+        <div class="x1"><img id="next" src="assets/tracks/albumart-arrow-right.png"></div>
+      </div>
+      <div class="flex">
+        <div class="x1"></div>
+        <div class="x3"><input id="volume" type="range" value="100" max="100" step="1"></div>
+        <div class="x1"></div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>  

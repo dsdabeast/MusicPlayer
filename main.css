@@ -1,0 +1,36 @@
+.flex {
+    display: flex;
+    
+}
+
+.x1 {
+    flex: 1;
+    
+}
+
+.x3 {
+    flex: 3;
+}
+
+#main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+#controls-main {
+    text-align: center;
+}
+
+#song-main {
+    text-align: center;
+}
+
+#art {
+    width: 100%;
+}
+
+body {
+    background-color: #7B68EE;
+}
+
